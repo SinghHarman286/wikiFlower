@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5326DE95521415104D5B6CFF /* Pods_WikiFlower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E06D443F40392EA36ED28B /* Pods_WikiFlower.framework */; };
+		F6A6675C2504DC540048F614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6675B2504DC540048F614 /* AppDelegate.swift */; };
+		F6A6675E2504DC540048F614 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6675D2504DC540048F614 /* SceneDelegate.swift */; };
+		F6A667602504DC540048F614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A6675F2504DC540048F614 /* ViewController.swift */; };
+		F6A667632504DC540048F614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A667612504DC540048F614 /* Main.storyboard */; };
+		F6A667652504DC5E0048F614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A667642504DC5E0048F614 /* Assets.xcassets */; };
+		F6A667682504DC5E0048F614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A667662504DC5E0048F614 /* LaunchScreen.storyboard */; };
+		F6A667702504DC800048F614 /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F6A6676F2504DC7F0048F614 /* FlowerClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53E06D443F40392EA36ED28B /* Pods_WikiFlower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WikiFlower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		778E892F0B3EBDCD765E3749 /* Pods-WikiFlower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiFlower.debug.xcconfig"; path = "Target Support Files/Pods-WikiFlower/Pods-WikiFlower.debug.xcconfig"; sourceTree = "<group>"; };
+		F6A667582504DC540048F614 /* WikiFlower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiFlower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A6675B2504DC540048F614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6A6675D2504DC540048F614 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6A6675F2504DC540048F614 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6A667622504DC540048F614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6A667642504DC5E0048F614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A667672504DC5E0048F614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6A667692504DC5E0048F614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A6676F2504DC7F0048F614 /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
+		FE9CB7B71A7AEB928569E0CE /* Pods-WikiFlower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiFlower.release.xcconfig"; path = "Target Support Files/Pods-WikiFlower/Pods-WikiFlower.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6A667552504DC540048F614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5326DE95521415104D5B6CFF /* Pods_WikiFlower.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD42C89D42E0B1595B8ACDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E06D443F40392EA36ED28B /* Pods_WikiFlower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E99736CF2B0E4D9DCF9B5109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				778E892F0B3EBDCD765E3749 /* Pods-WikiFlower.debug.xcconfig */,
+				FE9CB7B71A7AEB928569E0CE /* Pods-WikiFlower.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F6A6674F2504DC540048F614 = {
+			isa = PBXGroup;
+			children = (
+				F6A6675A2504DC540048F614 /* WikiFlower */,
+				F6A667592504DC540048F614 /* Products */,
+				E99736CF2B0E4D9DCF9B5109 /* Pods */,
+				CFD42C89D42E0B1595B8ACDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A667592504DC540048F614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A667582504DC540048F614 /* WikiFlower.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A6675A2504DC540048F614 /* WikiFlower */ = {
+			isa = PBXGroup;
+			children = (
+				F6A6675B2504DC540048F614 /* AppDelegate.swift */,
+				F6A6675D2504DC540048F614 /* SceneDelegate.swift */,
+				F6A6675F2504DC540048F614 /* ViewController.swift */,
+				F6A667612504DC540048F614 /* Main.storyboard */,
+				F6A667642504DC5E0048F614 /* Assets.xcassets */,
+				F6A667662504DC5E0048F614 /* LaunchScreen.storyboard */,
+				F6A6676F2504DC7F0048F614 /* FlowerClassifier.mlmodel */,
+				F6A667692504DC5E0048F614 /* Info.plist */,
+			);
+			path = WikiFlower;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6A667572504DC540048F614 /* WikiFlower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A6676C2504DC5E0048F614 /* Build configuration list for PBXNativeTarget "WikiFlower" */;
+			buildPhases = (
+				AFBD76F5F8C17E60A6ECBCC4 /* [CP] Check Pods Manifest.lock */,
+				F6A667542504DC540048F614 /* Sources */,
+				F6A667552504DC540048F614 /* Frameworks */,
+				F6A667562504DC540048F614 /* Resources */,
+				83F95CF2A517DA60CFE9D39B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiFlower;
+			productName = WikiFlower;
+			productReference = F6A667582504DC540048F614 /* WikiFlower.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6A667502504DC540048F614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Harman Singh";
+				TargetAttributes = {
+					F6A667572504DC540048F614 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F6A667532504DC540048F614 /* Build configuration list for PBXProject "WikiFlower" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6A6674F2504DC540048F614;
+			productRefGroup = F6A667592504DC540048F614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A667572504DC540048F614 /* WikiFlower */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6A667562504DC540048F614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A667682504DC5E0048F614 /* LaunchScreen.storyboard in Resources */,
+				F6A667652504DC5E0048F614 /* Assets.xcassets in Resources */,
+				F6A667632504DC540048F614 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83F95CF2A517DA60CFE9D39B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WikiFlower/Pods-WikiFlower-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WikiFlower/Pods-WikiFlower-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WikiFlower/Pods-WikiFlower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFBD76F5F8C17E60A6ECBCC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WikiFlower-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6A667542504DC540048F614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A667702504DC800048F614 /* FlowerClassifier.mlmodel in Sources */,
+				F6A667602504DC540048F614 /* ViewController.swift in Sources */,
+				F6A6675C2504DC540048F614 /* AppDelegate.swift in Sources */,
+				F6A6675E2504DC540048F614 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6A667612504DC540048F614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A667622504DC540048F614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6A667662504DC5E0048F614 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A667672504DC5E0048F614 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6A6676A2504DC5E0048F614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6A6676B2504DC5E0048F614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6A6676D2504DC5E0048F614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778E892F0B3EBDCD765E3749 /* Pods-WikiFlower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 848MZ5522W;
+				INFOPLIST_FILE = WikiFlower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmanSingh.WikiFlower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A6676E2504DC5E0048F614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE9CB7B71A7AEB928569E0CE /* Pods-WikiFlower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 848MZ5522W;
+				INFOPLIST_FILE = WikiFlower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.harmanSingh.WikiFlower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6A667532504DC540048F614 /* Build configuration list for PBXProject "WikiFlower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A6676A2504DC5E0048F614 /* Debug */,
+				F6A6676B2504DC5E0048F614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A6676C2504DC5E0048F614 /* Build configuration list for PBXNativeTarget "WikiFlower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A6676D2504DC5E0048F614 /* Debug */,
+				F6A6676E2504DC5E0048F614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6A667502504DC540048F614 /* Project object */;
+}
